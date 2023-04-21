@@ -36,7 +36,6 @@ public class dSSets {
         citysSet.add(new citysInnerdSSets("Hue"));
         citysSet.forEach(System.out::println);
         System.out.println(citysSet.size());
-        System.out.println(citysSet.isEmpty());
 
     }
 
