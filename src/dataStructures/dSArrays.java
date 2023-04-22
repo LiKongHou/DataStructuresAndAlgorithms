@@ -6,17 +6,17 @@ public class dSArrays {
     static String[] city;
 
     public static void main(String[] args) {
-        city = new String[63];
+        city = new String[10];
         city[0] = "HaNoi";
 
-        String[] address = { "GiaiPhong", "DaiLa" };
+        String[] address = {"GiaiPhong", "DaiLa"};
 
         for (int i = 0; i < city.length; i++) {
             System.out.println("City " + i + " " + city[i]);
         }
 
         for (int i = address.length - 1; i >= 0; i--) {
-            System.out.println("Address " + i + " "  + address[i]);
+            System.out.println("Address " + i + " " + address[i]);
         }
 
         for (String add : address) {

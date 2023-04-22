@@ -17,10 +17,10 @@ public class dSLists {
                 "hanoi",
                 "hochiminh",
                 "danang");
+        System.out.println(new_citys);
         /*
          * Danh sách bất biến không thể sửa đổi: new_citys
          */
-        System.out.println(new_citys);
 
         citys = new ArrayList<>();
         citys.add("TP.HaNoi");
