@@ -29,7 +29,7 @@ public class bubbleSort {
          */
 
         // Prompt user for input
-        System.out.println("Enter in the array of natural numbers (each number is separated by 1 space): ");
+        System.out.print("Enter in the array of natural numbers (each number is separated by 1 space): ");
         try (Scanner inputArrays = new Scanner(System.in)) {
             String[] arrayProcessin = inputArrays.nextLine().replaceAll("\\s+", " ").split(" ");
             int[] arrays = new int[arrayProcessin.length];
@@ -43,14 +43,13 @@ public class bubbleSort {
             bubbleSort(arrays);
 
             // Print sorted array
-            System.out.println("Sorted array: ");
+            System.out.print("Sorted array: ");
             for (int array : arrays) {
                 System.out.print(array + " ");
             }
             System.out.println();
             Arrays.stream(arrays).forEach(x -> System.out.print(x + " "));
         } catch (NumberFormatException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
