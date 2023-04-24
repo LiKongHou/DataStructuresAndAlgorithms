@@ -33,12 +33,12 @@ public class insertionSort {
         // Prompt user for input
         System.out.print("Enter in the array of natural numbers (each number is separated by 1 space): ");
         try (Scanner inputArrays = new Scanner(System.in)) {
-            String[] arraysProseccin = inputArrays.nextLine().replaceAll("\\s+", " ").split(" ");
-            int[] arrays = new int[arraysProseccin.length];
+            String[] arrayProcessin = inputArrays.nextLine().replaceAll("\\s+", " ").split(" ");
+            int[] arrays = new int[arrayProcessin.length];
 
             //covert input in Interget arrays
-            for (int i = 0; i < arraysProseccin.length; i++) {
-                arrays[i] = Integer.parseInt(arraysProseccin[i]);
+            for (int i = 0; i < arrayProcessin.length; i++) {
+                arrays[i] = Integer.parseInt(arrayProcessin[i]);
             }
 
             // Perform Bubble Sort
