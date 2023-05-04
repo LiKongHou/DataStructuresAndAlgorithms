@@ -1,0 +1,13 @@
+
+d
+java:S11920"GDefine a constant instead of duplicating this literal "DaNang" 4 times.(Í¥¥‡8¬ˆ„¨ú0
+h
+java:S1192."FDefine a constant instead of duplicating this literal "HaNoi" 6 times.(µ¼‹ïøÿÿÿÿ8¬ˆ„¨ú0
+l
+java:S1192Q"JDefine a constant instead of duplicating this literal "HoChiMinh" 3 times.(®¨Ê–üÿÿÿÿ8¬ˆ„¨ú0
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ĞŒ—«8­ˆ„¨ú0
+j	java:S101w"NRename this record name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(“ûü•8­ˆ„¨ú0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÃÓõøÿÿÿÿ8®ˆ„¨ú0
+v
+java:S3008"YRename this field "new_linkedlist" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âˆ°8Âˆ„¨ú0
+]	java:S125?"<This block of commented-out lines of code should be removed.(ü„—ãøÿÿÿÿ8Íˆ„¨ú0

@@ -34,7 +34,7 @@ public class mergeSort {
                 arrays[i] = Integer.parseInt(arrayProcessin[i]);
             }
 
-            // Perform Bubble Sort
+            // Perform Merge Sort
             mergeSortMethob(arrays, 0, arrays.length - 1);
 
             //Print sorted arrays

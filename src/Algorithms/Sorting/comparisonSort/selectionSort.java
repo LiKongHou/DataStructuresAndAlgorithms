@@ -38,7 +38,7 @@ public class selectionSort {
             for (int i = 0; i < arrayProcessin.length; i++) {
                 arrays[i] = Integer.parseInt(arrayProcessin[i]);
             }
-            // Perform Bubble Sort
+            // Perform Slection Sort
             selectionSortx(arrays);
 
             //Print sorted arrays

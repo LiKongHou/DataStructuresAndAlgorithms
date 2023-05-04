@@ -41,7 +41,7 @@ public class insertionSort {
                 arrays[i] = Integer.parseInt(arrayProcessin[i]);
             }
 
-            // Perform Bubble Sort
+            // Perform insertion Sort
             insertionSort(arrays);
 
             //Print sorted arrays
