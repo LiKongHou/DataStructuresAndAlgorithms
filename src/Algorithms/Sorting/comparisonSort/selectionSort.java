@@ -50,7 +50,7 @@ public class selectionSort {
         }
     }
 
-    public static void selectionSortx(int[] arrays) {
+    private static void selectionSortx(int[] arrays) {
         int n = arrays.length;
 
         for (int i = 0; i < n - 1; i++) {
