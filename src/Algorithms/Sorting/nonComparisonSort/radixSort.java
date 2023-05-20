@@ -63,6 +63,7 @@ public class radixSort {
 
         int max = getMax(arrays);
 
+        // Thực hiện sắp xếp đếm cho từng vị trí chữ số
         for (int exp = 1; max / exp > 0; exp *= 10) {
             countingSort(arrays, exp);
         }
@@ -84,21 +85,25 @@ public class radixSort {
 
         Arrays.fill(count, 0);
 
+        // Đếm số lần xuất hiện của từng giá trị chữ số
         for (int i = 0; i < arrays.length; i++) {
             int digit = (arrays[i] / exp) % 10;
             count[digit]++;
         }
 
+        // Tính toán số lượng tích lũy
         for (int i = 1; i < 10; i++) {
             count[i] += count[i - 1];
         }
 
+        // Đặt các phần tử trong mảng đầu ra theo đúng thứ tự
         for (int i = arrays.length - 1; i >= 0; i--) {
             int digit = (arrays[i] / exp) % 10;
             output[count[digit] - 1] = arrays[i];
             count[digit]--;
         }
 
+        // Sao chép các phần tử được sắp xếp trở lại mảng ban đầu
         System.arraycopy(output, 0, arrays, 0, arrays.length);
     }
 }

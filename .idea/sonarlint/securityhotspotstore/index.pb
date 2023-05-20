@@ -17,10 +17,6 @@ T
 $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
 L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-P
- src/Images/dataStructures.drawio,d\4\d4616fb17cee9b4e4afd106135593c09a5ff875e
 d
 4src/Algorithms/Sorting/comparisonSort/mergeSort.java,b\8\b84d1ecc2be57e8ec94200286bd7de4a892f9990
 h
@@ -35,5 +31,3 @@ d
 4src/Algorithms/Sorting/comparisonSort/quickSort.java,8\2\822d3706f649f7f5bfe68cccf4fc9fe2983bf114
 h
 8src/Algorithms/Sorting/comparisonSort/selectionSort.java,a\c\aca870c5e456ba5e168ff407a6b777a9a0008add
-O
-DataStructuresAndAlgorithms.iml,2\5\259bc5db63d88daca74f605b9a63ebcaa46d6c59
