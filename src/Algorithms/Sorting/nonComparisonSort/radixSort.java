@@ -57,10 +57,6 @@ public class radixSort {
     }
 
     public static void radixSortx(int[] arrays) {
-        if (arrays.length <= 1) {
-            return;
-        }
-
         int max = getMax(arrays);
 
         // Thực hiện sắp xếp đếm cho từng vị trí chữ số
