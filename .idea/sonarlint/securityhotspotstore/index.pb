@@ -23,8 +23,6 @@ h
 8src/Algorithms/Sorting/comparisonSort/insertionSort.java,0\2\02e6464a745e6d227c156f9474b4460ef3b26a7f
 c
 3src/Algorithms/Sorting/comparisonSort/heapSort.java,6\4\6426b28b3e5c54217eae30b6fe535deed22dae78
-n
->src/Algorithms/Sorting/comparisonSort/whatIsComparisonSort.txt,f\4\f4ef85323d111db9b56b097b2ce7e26e032cfd79
 h
 8src/Algorithms/Sorting/comparisonSort/selectionSort.java,a\c\aca870c5e456ba5e168ff407a6b777a9a0008add
 j

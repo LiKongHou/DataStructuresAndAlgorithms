@@ -50,9 +50,7 @@ public class binarySearch {
                 for (int i = 0; i < arrayLength; i++) {
                     array[i] = random.nextInt(RANDOM_ARRAY_VALUE_LIMIT);
                 }
-                quickSort(array, 0, array.length - 1);
-                out.print("Array: ");
-                Arrays.stream(array).forEach(x -> out.print(x + " "));
+
             } else {
                 out.print("Enter in the array of natural numbers (each number is separated by 1 space): ");
                 try (Scanner arrayInput = new Scanner(in)) {
@@ -63,6 +61,9 @@ public class binarySearch {
                     }
                 }
             }
+            quickSort(array, 0, array.length - 1);
+            out.print("Array: ");
+            Arrays.stream(array).forEach(x -> out.print(x + " "));
             out.println();
             out.print("Enter the value to find in the array: ");
             try (Scanner targetInput = new Scanner(in)) {
@@ -87,6 +88,7 @@ public class binarySearch {
                 return mid;
             if (array[mid] > target)
                 return binarySearch(array, target, left, mid - 1);
+
             return binarySearch(array, target, mid + 1, right);
         }
         return -1;
