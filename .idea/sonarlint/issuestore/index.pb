@@ -22,8 +22,6 @@ h
 n
 >src/Algorithms/Sorting/comparisonSort/whatIsComparisonSort.txt,f\4\f4ef85323d111db9b56b097b2ce7e26e032cfd79
 d
-4src/Algorithms/Sorting/comparisonSort/quickSort.java,8\2\822d3706f649f7f5bfe68cccf4fc9fe2983bf114
-d
 4src/Algorithms/Sorting/comparisonSort/mergeSort.java,b\8\b84d1ecc2be57e8ec94200286bd7de4a892f9990
 c
 3src/Algorithms/Sorting/comparisonSort/heapSort.java,6\4\6426b28b3e5c54217eae30b6fe535deed22dae78
