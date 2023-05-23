@@ -62,7 +62,7 @@ public class binarySearch {
                 }
             }
             quickSort(array, 0, array.length - 1);
-            out.print("Array: ");
+            out.print("Array Sorted: ");
             Arrays.stream(array).forEach(x -> out.print(x + " "));
             out.println();
             out.print("Enter the value to find in the array: ");

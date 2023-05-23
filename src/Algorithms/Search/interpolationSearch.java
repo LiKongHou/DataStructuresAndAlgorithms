@@ -62,13 +62,13 @@ public class interpolationSearch {
                 }
             }
             bubbleSort(array);
-            System.out.print("Array: ");
+            System.out.print("Array Sorted: ");
             Arrays.stream(array).forEach(x -> System.out.print(x + " "));
             System.out.println();
             System.out.print("Enter the value to find in the array: ");
             try (Scanner targetInput = new Scanner(System.in)) {
-                String input = targetInput.nextLine();
-                int target = Integer.parseInt(input);
+                int target = targetInput.nextInt();
+//                int target = Integer.parseInt(input);
 
                 int index = interpolationSearch(array, target, 0, array.length - 1);
 
