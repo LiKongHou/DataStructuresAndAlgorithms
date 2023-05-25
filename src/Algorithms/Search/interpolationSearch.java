@@ -53,6 +53,7 @@ public class interpolationSearch {
                     array[i] = random.nextInt(10000);
                 }
             } else {
+                System.out.print("Enter in the array of natural numbers (each number is separated by 1 space): ");
                 try (Scanner arrayInput = new Scanner(System.in)) {
                     String[] arrayProcessin = arrayInput.nextLine().replaceAll("\\s+", " ").split(" ");
                     array = new int[arrayProcessin.length];
@@ -68,8 +69,6 @@ public class interpolationSearch {
             System.out.print("Enter the value to find in the array: ");
             try (Scanner targetInput = new Scanner(System.in)) {
                 int target = targetInput.nextInt();
-//                int target = Integer.parseInt(input);
-
                 int index = interpolationSearch(array, target, 0, array.length - 1);
 
                 if (index != -1)

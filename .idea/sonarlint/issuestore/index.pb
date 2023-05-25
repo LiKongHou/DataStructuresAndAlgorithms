@@ -21,8 +21,6 @@ h
 8src/Algorithms/Sorting/comparisonSort/insertionSort.java,0\2\02e6464a745e6d227c156f9474b4460ef3b26a7f
 d
 4src/Algorithms/Sorting/comparisonSort/mergeSort.java,b\8\b84d1ecc2be57e8ec94200286bd7de4a892f9990
-c
-3src/Algorithms/Sorting/comparisonSort/heapSort.java,6\4\6426b28b3e5c54217eae30b6fe535deed22dae78
 n
 >bin/Algorithms/Sorting/comparisonSort/whatIsComparisonSort.txt,b\9\b9d982eb6f8f3bfa8bafa15592651816a51967af
 j
@@ -49,5 +47,3 @@ Z
 *src/Algorithms/Search/searchAlgorithms.txt,d\3\d30c7f08447856d8071d31b90a0954e1b96dfdc2
 h
 8src/Algorithms/Sorting/comparisonSort/selectionSort.java,a\c\aca870c5e456ba5e168ff407a6b777a9a0008add
-W
-'src/Algorithms/Search/linearSearch.java,9\1\91c32884d4381f29c30f0041a9da544dc5e995d2

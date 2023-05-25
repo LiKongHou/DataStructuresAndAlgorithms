@@ -18,20 +18,17 @@ public class heapSort {
          *
          * 1.Xây dựng max-heap hoặc min-heap từ mảng đầu vào.
          * 2.Giải nén phần tử gốc (sẽ là phần tử tối đa hoặc tối thiểu) và hoán đổi nó
-         * với
-         * phần tử cuối cùng trong heap.
+         * với phần tử cuối cùng trong heap.
          * 3.Loại bỏ phần tử cuối cùng khỏi heap (bây giờ là phần tử tối đa hoặc tối
          * thiểu) và đặt nó ở cuối mảng được sắp xếp.
          * 4.Khôi phục thuộc tính heap bằng cách sàng lọc phần tử gốc mới, nếu cần.
          * 5.Lặp lại các bước 2-4 cho đến khi toàn bộ mảng được sắp xếp.
          *
-         *
          * Heap Sort có độ phức tạp về thời gian là O (nlogn), làm cho nó trở thành một
          * thuật toán sắp xếp hiệu quả cho các tập dữ liệu lớn.
          *
-         * Tuy nhiên, nó đòi hỏi bộ
-         * nhớ bổ sung để lưu trữ cấu trúc dữ liệu heap, điều này có thể là một bất lợi
-         * trong một số trường hợp.
+         * Tuy nhiên, nó đòi hỏi bộ nhớ bổ sung để lưu trữ cấu trúc dữ liệu heap, điều
+         * này có thể là một bất lợi trong một số trường hợp.
          */
         // Prompt user for input
         System.out.print("Enter in the array of natural numbers (each number is separated by 1 space): ");
@@ -63,14 +60,14 @@ public class heapSort {
         for (int i = n / 2 - 1; i >= 0; i--)
             heapify(arrays, n, i);
 
-        // Extract elements from heap one by one
+        // Trích xuất từng phần tử từ heap
         for (int i = n - 1; i >= 0; i--) {
-            // Move current root to end
+            // Di chuyển gốc hiện tại đến cuối
             int temp = arrays[0];
             arrays[0] = arrays[i];
             arrays[i] = temp;
 
-            // Call max heapify on the reduced heap
+            // Gọi max heapify trên heap giảm
             heapify(arrays, i, 0);
         }
     }

@@ -57,6 +57,7 @@ public class jumpSearch {
                     array[i] = random.nextInt(10000);
                 }
             } else {
+                System.out.print("Enter in the array of natural numbers (each number is separated by 1 space): ");
                 try (Scanner arrayInput = new Scanner(System.in)) {
                     String[] arrayProcessin = arrayInput.nextLine().replaceAll("\\s+", " ").split(" ");
                     array = new int[arrayProcessin.length];
