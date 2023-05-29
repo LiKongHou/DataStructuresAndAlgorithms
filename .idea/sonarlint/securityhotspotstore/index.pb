@@ -19,8 +19,6 @@ L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
 d
 4src/Algorithms/Sorting/comparisonSort/mergeSort.java,b\8\b84d1ecc2be57e8ec94200286bd7de4a892f9990
-h
-8src/Algorithms/Sorting/comparisonSort/insertionSort.java,0\2\02e6464a745e6d227c156f9474b4460ef3b26a7f
 j
 :src/Algorithms/Sorting/nonComparisonSort/countingSort.java,3\2\3223e5fcd4160bbe1070c5cae8e3c61e7a185cfd
 n
