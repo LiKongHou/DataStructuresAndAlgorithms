@@ -17,8 +17,6 @@ L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
 P
  src/dataStructures/dSArrays.java,5\5\55b27d72adca49899e84868c07cd23c9c519aa60
-d
-4src/Algorithms/Sorting/comparisonSort/mergeSort.java,b\8\b84d1ecc2be57e8ec94200286bd7de4a892f9990
 n
 >bin/Algorithms/Sorting/comparisonSort/whatIsComparisonSort.txt,b\9\b9d982eb6f8f3bfa8bafa15592651816a51967af
 j
@@ -37,8 +35,6 @@ d
 4src/Algorithms/Sorting/comparisonSort/quickSort.java,8\2\822d3706f649f7f5bfe68cccf4fc9fe2983bf114
 n
 >src/Algorithms/Sorting/comparisonSort/whatIsComparisonSort.txt,f\4\f4ef85323d111db9b56b097b2ce7e26e032cfd79
-e
-5src/Algorithms/Sorting/comparisonSort/bubbleSort.java,7\0\705af4f5f43718a74080c987e404da7bdc860b45
 Z
 *bin/Algorithms/Search/searchAlgorithms.txt,d\7\d7b1ba5175181dfc00f1148a16238c247a389309
 Z
