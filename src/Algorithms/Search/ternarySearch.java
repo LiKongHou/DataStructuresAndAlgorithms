@@ -47,7 +47,8 @@ public class ternarySearch {
         int[] array;
         Random random = new Random();
 
-        System.out.print("Use random arrays (Otherwise enter data into the array, each value separated by a space) Y/N: ");
+        System.out.print(
+                "Use random arrays (Otherwise enter data into the array, each value separated by a space) Y/N: ");
         try (Scanner anwsersInput = new Scanner(System.in)) {
             String anwsers = anwsersInput.nextLine();
             if (anwsers.equalsIgnoreCase("Y")) {
@@ -75,22 +76,46 @@ public class ternarySearch {
                 int target = targetInput.nextInt();
                 int index = ternarySearch(array, target, 0, array.length - 1);
 
-                if (target != -1)
+                if (index != -1)
                     System.out.print("Element found at index: " + index);
                 else
                     System.out.print("Element not found");
             }
         }
 
-
     }
 
     private static void insertionSort(int[] array) {
-        // TODO document why this method is empty
+        int n = array.length;
+        for (int i = 1; i < n; i++) {
+            int key = array[i];
+            int j = i - 1;
+            while (j >= 0 && array[j] > key) {
+                array[j + 1] = array[j];
+                j--;
+            }
+            array[j + 1] = key;
+        }
     }
 
     private static int ternarySearch(int[] array, int target, int low, int high) {
-        // TODO document why this method is empty
-        return target;
+        if (low > high) {
+            return -1;
+        }
+
+        int mid1 = low + (high - low) / 3;
+        int mid2 = high - (high - low) / 3;
+
+        if (target == mid1) {
+            return mid1;
+        } else if (target == mid2) {
+            return mid2;
+        } else if (target < array[mid1]) {
+            return ternarySearch(array, target, low, mid1 - 1);
+        } else if (target < array[mid2]) {
+            return ternarySearch(array, target, mid2 + 1, high);
+        } else {
+            return ternarySearch(array, target, mid1 + 1, mid2 - 1);
+        }
     }
 }
