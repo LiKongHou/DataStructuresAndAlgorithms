@@ -35,7 +35,7 @@ public class mergeSort {
             }
 
             // Perform Merge Sort
-            mergeSortMethob(arrays, 0, arrays.length - 1);
+            mergeSortMethod(arrays, 0, arrays.length - 1);
 
             //Print sorted arrays
             System.out.print("Sorted array: ");
@@ -46,11 +46,11 @@ public class mergeSort {
         }
     }
 
-    public static void mergeSortMethob(int[] arrays, int left, int right) {
+    public static void mergeSortMethod(int[] arrays, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;
-            mergeSortMethob(arrays, left, mid);
-            mergeSortMethob(arrays, mid + 1, right);
+            mergeSortMethod(arrays, left, mid);
+            mergeSortMethod(arrays, mid + 1, right);
             merge(arrays, left, mid, right);
         }
     }
